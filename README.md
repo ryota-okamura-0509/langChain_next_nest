@@ -4,6 +4,7 @@ dockerで環境を用意しているので下記で起動してください
 ```bash
 docker compose up -d
 ```
+[http://localhost:3001/chat](http://localhost:3001/chat)にアクセス
 
 ## 構成
 ![alt text](system.drawio.png)
