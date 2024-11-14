@@ -1,4 +1,5 @@
 ## 環境構築
+.envを.env.sampleを参考に作ってください（OPEN＿API＿KEYは[ここを参考に追加](https://qiita.com/kurata04/items/a10bdc44cc0d1e62dad3)
 dockerで環境を用意しているので下記で起動してください
 ```bash
 docker compose up -d
