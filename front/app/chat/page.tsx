@@ -17,7 +17,7 @@ export default function Home() {
   const submitMessage = async () => {
     setUserMessages([...userMessages, message]);
     setMessage("");
-    const res = await fetch(`http://localhost:3005/memo/v2?q=${message}`);
+    const res = await fetch(`http://localhost:3005/memo?q=${message}`);
     const data = await res.json();
     console.log(data.content);
     if (!data.content) return;
